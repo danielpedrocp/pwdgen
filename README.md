@@ -1,18 +1,4 @@
 # pwdgen
-A simple and customizable password generator written in Python.
-
-## 🚧 Milestones
-
-- [x] Generate password with lowercase, uppercase, and digits
-- [ ] Add punctuation to password generation
-- [ ] Implement CLI with argparse and `--help`
-- [ ] Add unit and pytest-compatible tests
-- [ ] Define and validate password security policy (min 8–12+ chars, mixed charset)
-- [ ] Package for PyPI with `setup.py` or `pyproject.toml`
-- [ ] Add version badge and metadata parsing to README
-- [ ] Create `api` branch for containerized service (FastAPI)
-
-# pwdgen
 
 A simple and customizable password generator written in Python.
 
