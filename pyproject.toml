@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pwdgen"
+version = "0.1.0"
+description = "A simple password generator and validator"
+authors = [
+  { name="Daniel Cunha", email="danielpedrocp@gmail.com" }
+]
+license = "MIT"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/danielpedrocp/pwdgen"
+
+[tool.setuptools.packages.find]
+where = ["pwdgen"]
